@@ -111,6 +111,7 @@ open class IMGLYStickersEditorViewController: IMGLYSubEditorViewController {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.dataSource = stickersDataSource
         collectionView.delegate = self
+        collectionView.backgroundColor = .clear
         collectionView.register(IMGLYStickerCollectionViewCell.self, forCellWithReuseIdentifier: StickersCollectionViewCellReuseIdentifier)
         
         let views = [ "collectionView" : collectionView ]

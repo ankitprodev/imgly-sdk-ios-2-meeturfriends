@@ -37,6 +37,7 @@ open class IMGLYFilterSelectionController: UICollectionViewController {
         super.init(collectionViewLayout: flowLayout)
         
         view.translatesAutoresizingMaskIntoConstraints = false
+        collectionView.backgroundColor = .clear
         collectionView?.register(IMGLYFilterCollectionViewCell.self, forCellWithReuseIdentifier: FilterCollectionViewCellReuseIdentifier)
     }
 
@@ -65,7 +66,7 @@ extension IMGLYFilterSelectionController {
         
         filterCell.textLabel.text = filter.imgly_displayName
         filterCell.imageView.layer.cornerRadius = 28
-        filterCell.imageView.layer.borderColor = .white
+        filterCell.imageView.layer.borderColor = UIColor.white.cgColor
         filterCell.imageView.layer.borderWidth = 2
         filterCell.imageView.clipsToBounds = true
         filterCell.imageView.contentMode = .scaleToFill

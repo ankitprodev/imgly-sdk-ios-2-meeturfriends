@@ -62,6 +62,9 @@ open class IMGLYTextColorSelectorView: UIScrollView {
             buttonArray.append(button)
             button.backgroundColor = color
             button.hasFrame = true
+            button.layer.cornerRadius = kButtonSideLength/2
+            button.layer.borderWidth = 1
+            button.layer.borderColor = UIColor.white.cgColor
         }
     }
     
