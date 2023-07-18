@@ -1,23 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "Frame 420.png",
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "glasses_sun_thumbnail.png"
+      "scale" : "1x"
     },
     {
+      "filename" : "Frame 420@2x.png",
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "glasses_sun@2x_thumbnail.png"
+      "scale" : "2x"
     },
     {
+      "filename" : "Frame 420@3x.png",
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "glasses_sun@3x_thumbnail.png"
+      "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

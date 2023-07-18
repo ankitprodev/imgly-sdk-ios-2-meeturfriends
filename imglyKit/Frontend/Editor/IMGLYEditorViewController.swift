@@ -42,6 +42,7 @@ open class IMGLYEditorViewController: UIViewController {
     open fileprivate(set) lazy var bottomContainerView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .clear
         return view
     }()
     
@@ -60,14 +61,6 @@ open class IMGLYEditorViewController: UIViewController {
         configureNavigationItems()
         configureViewHierarchy()
         configureViewConstraints()
-    }
-    
-    open override var preferredStatusBarStyle : UIStatusBarStyle {
-        return .lightContent
-    }
-    
-    open override var prefersStatusBarHidden : Bool {
-        return true
     }
     
     open override var shouldAutorotate : Bool {

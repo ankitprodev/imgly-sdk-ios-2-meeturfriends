@@ -64,7 +64,9 @@ extension IMGLYFilterSelectionController {
         let filter = IMGLYInstanceFactory.effectFilterWithType(filterType)
         
         filterCell.textLabel.text = filter.imgly_displayName
-        filterCell.imageView.layer.cornerRadius = 3
+        filterCell.imageView.layer.cornerRadius = 28
+        filterCell.imageView.layer.borderColor = .white
+        filterCell.imageView.layer.borderWidth = 2
         filterCell.imageView.clipsToBounds = true
         filterCell.imageView.contentMode = .scaleToFill
         filterCell.imageView.image = nil

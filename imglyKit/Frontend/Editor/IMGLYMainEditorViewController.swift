@@ -150,6 +150,7 @@ open class IMGLYMainEditorViewController: IMGLYEditorViewController {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.dataSource = self
         collectionView.delegate = self
+        collectionView.backgroundColor = .clear
         collectionView.register(IMGLYButtonCollectionViewCell.self, forCellWithReuseIdentifier: ButtonCollectionViewCellReuseIdentifier)
         
         let views = [ "collectionView" : collectionView ]

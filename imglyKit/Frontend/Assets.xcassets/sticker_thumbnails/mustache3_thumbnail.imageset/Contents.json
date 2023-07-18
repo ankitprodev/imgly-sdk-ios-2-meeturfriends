@@ -1,23 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "Frame 429.png",
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "mustache3_thumbnail.png"
+      "scale" : "1x"
     },
     {
+      "filename" : "Frame 429@2x.png",
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "mustache3@2x_thumbnail.png"
+      "scale" : "2x"
     },
     {
+      "filename" : "Frame 429@3x.png",
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "mustache3@3x_thumbnail.png"
+      "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

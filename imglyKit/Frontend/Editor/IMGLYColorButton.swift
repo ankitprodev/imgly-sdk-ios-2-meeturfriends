@@ -32,10 +32,6 @@ open class IMGLYColorButton : UIButton {
     
     fileprivate func styleButton() {
         isSelected = false
-        layer.cornerRadius = 3
         layer.masksToBounds = true
-        layer.borderWidth = 1.0 / contentScaleFactor
-        let alpha = hasFrame ? 0.3 : 0.0
-        layer.borderColor = UIColor(white: 1.0, alpha: CGFloat(alpha)).cgColor
     }
 }
