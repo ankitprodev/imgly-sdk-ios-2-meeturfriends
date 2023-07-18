@@ -45,7 +45,6 @@ open class IMGLYMainEditorViewController: IMGLYEditorViewController {
             IMGLYActionButton(
                 title: NSLocalizedString("main-editor.button.magic", tableName: nil, bundle: bundle, value: "", comment: ""),
                 image: UIImage(named: "icon_option_magic", in: bundle, compatibleWith: nil),
-                selectedImage: UIImage(named: "icon_option_magic_active", in: bundle, compatibleWith: nil),
                 handler: { [unowned self] in self.subEditorButtonPressed(.magic) },
                 showSelection: { [unowned self] in return self.fixedFilterStack.enhancementFilter._enabled }))
         

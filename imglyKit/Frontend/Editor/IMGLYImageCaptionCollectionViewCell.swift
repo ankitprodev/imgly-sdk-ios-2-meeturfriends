@@ -21,8 +21,8 @@ class IMGLYImageCaptionCollectionViewCell: UICollectionViewCell {
     
     lazy var textLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 11)
-        label.textColor = UIColor(white: 0.5, alpha: 1.0)
+        label.font = UIFont(name: "Lexend-Regular", size: 12)
+        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
         }()
